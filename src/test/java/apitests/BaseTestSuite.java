@@ -15,11 +15,11 @@ public class BaseTestSuite {
 
     @BeforeAll
     public static void Setup() throws MalformedURLException
+
     {
         System.setProperty("webdriver.chrome.driver", "C:\\Installs\\Installs\\chromedriver102\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-
     }
 
     @BeforeEach
@@ -32,6 +32,7 @@ public class BaseTestSuite {
 
     @AfterAll
     public static void Quit()
+
     {
         if (driver !=null)
             driver.quit();
