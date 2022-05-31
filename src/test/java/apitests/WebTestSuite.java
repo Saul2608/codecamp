@@ -80,4 +80,20 @@ public class WebTestSuite extends BaseTestSuite {
 
     }
 
+    @Test
+    public void LargestPlanetDistance()
+    {
+
+
+            var menu = new MenuPage(driver);
+            menu.navigateToPlanetsPage();
+
+            var planetDistance = new PlanetDistance(driver);
+            var distance = planetDistance.findPlanetTileByDistance("2,871,000,000 km");
+            Assertions.assertEquals("2,871,000,000 km", distance.getPlanetDistance());
+
+
+
+    }
+
 }

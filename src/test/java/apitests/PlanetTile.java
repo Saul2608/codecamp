@@ -3,7 +3,9 @@ package apitests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class PlanetTile {
+public class PlanetTile
+
+{
 
     private WebElement element;
 

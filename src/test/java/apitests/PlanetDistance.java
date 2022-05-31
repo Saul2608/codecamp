@@ -7,26 +7,23 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class PlanetsPage
-
-{
+public class PlanetDistance {
 
     private WebDriver driver;
 
-    public PlanetsPage(WebDriver driver)
+    public PlanetDistance(WebDriver driver)
     {
 
         this.driver = driver;
 
     }
-
     private List<WebElement> getPlanetTiles()
 
     {
         return driver.findElements(By.className("planet"));
     }
 
-    public PlanetTile findPlanetTileByName(String planetName)
+    public PlanetTile findPlanetTileByDistance(String planetDistance)
     {
         PlanetTile foundPlanetTile = null;
         var tiles = getPlanetTiles();
@@ -34,7 +31,7 @@ public class PlanetsPage
         {
 
             var currentTile = new PlanetTile(tile);
-            if (currentTile.getPlanetTileHeading().equalsIgnoreCase(planetName))
+            if (currentTile.getPlanetDistance().equalsIgnoreCase(planetDistance))
             {
 
                 foundPlanetTile = currentTile;
