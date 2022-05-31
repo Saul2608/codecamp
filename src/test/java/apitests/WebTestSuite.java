@@ -66,4 +66,18 @@ public class WebTestSuite extends BaseTestSuite {
 
     }
 
+    @Test
+    public void DistanceToJupiterTest()
+    {
+
+        var menu = new MenuPage(driver);
+        menu.navigateToPlanetsPage();
+
+        var planetsPage = new PlanetsPage(driver);
+        var jupiter = planetsPage.findPlanetTileByName("jupiter");
+        Assertions.assertEquals("778,500,000 km", jupiter.getPlanetDistance());
+
+
+    }
+
 }
