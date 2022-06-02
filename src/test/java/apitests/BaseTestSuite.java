@@ -21,7 +21,7 @@ public class BaseTestSuite {
 
     {
         driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), new ChromeOptions());
-        //System.setProperty("webdriver.chrome.driver", "C:\\Installs\\Installs\\chromedriver102\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Installs\\Installs\\chromedriver102\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
     }

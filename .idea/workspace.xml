@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654144972327</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Web test to click on form and planets in sequence.&#10;Submit form test which inputs information into form, submits and then asserts that message is received.">
+      <created>1654145256838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654145256838</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
