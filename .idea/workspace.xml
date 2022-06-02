@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="358cd78e-e454-418c-a6ae-31e5160b1544" name="Changes" comment="Web test to click on form and planets in sequence.&#10;Submit form test which inputs information into form, submits and then asserts that message is received.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="358cd78e-e454-418c-a6ae-31e5160b1544" name="Changes" comment="Web test to click on form and planets in sequence.&#10;Submit form test which inputs information into form, submits and then asserts that message is received." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654141675435</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Web test to click on form and planets in sequence.&#10;Submit form test which inputs information into form, submits and then asserts that message is received.">
+      <created>1654144972327</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654144972327</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
