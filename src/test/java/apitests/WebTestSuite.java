@@ -90,7 +90,7 @@ public class WebTestSuite extends BaseTestSuite {
 
             var planetDistance = new PlanetDistance(driver);
             var distance = planetDistance.findPlanetTileByDistance("2,871,000,000 km");
-            Assertions.assertEquals("2,871,000,000 km", distance.getPlanetDistance());
+            Assertions.assertEquals("Uranus", distance.getPlanetTileHeading());
 
 
 
