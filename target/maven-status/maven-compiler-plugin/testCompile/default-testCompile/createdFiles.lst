@@ -1,0 +1,7 @@
+apitests\FormsPage.class
+apitests\MenuPage.class
+apitests\PlanetsPage.class
+apitests\WebTestSuite.class
+apitests\BaseTestSuite.class
+apitests\ApiTestSuite.class
+apitests\PlanetTile.class
