@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="358cd78e-e454-418c-a6ae-31e5160b1544" name="Changes" comment="Web test to click on form and planets in sequence.&#10;Submit form test which inputs information into form, submits and then asserts that message is received." />
+    <list default="true" id="358cd78e-e454-418c-a6ae-31e5160b1544" name="Changes" comment="Web test to click on form and planets in sequence.&#10;Submit form test which inputs information into form, submits and then asserts that message is received.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PizzaTests/PizzaBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PizzaTests/PizzaMenuNav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PizzaTests/PizzaSignupPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PizzaTests/PizzaTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PizzaTests/VeganPizzaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PizzaTests/VeganPizzaTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apitests/FormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitests/FormsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apitests/FormsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apitests/FormsPage.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +42,60 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager" selected="JUnit.WebTestSuite.DistanceToJupiterTest">
+  <component name="RunManager" selected="JUnit.PizzaTestSuite.SignupTest">
+    <configuration name="PizzaTestSuite.FormsInsertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codecamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PizzaTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PizzaTests" />
+      <option name="MAIN_CLASS_NAME" value="PizzaTests.PizzaTestSuite" />
+      <option name="METHOD_NAME" value="FormsInsertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaTestSuite.SignupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codecamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PizzaTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PizzaTests" />
+      <option name="MAIN_CLASS_NAME" value="PizzaTests.PizzaTestSuite" />
+      <option name="METHOD_NAME" value="SignupTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaTestSuite.VeganPizza" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codecamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PizzaTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PizzaTests" />
+      <option name="MAIN_CLASS_NAME" value="PizzaTests.PizzaTestSuite" />
+      <option name="METHOD_NAME" value="VeganPizza" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codecamp" />
       <extension name="coverage">
@@ -68,61 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTestSuite.ErrorMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codecamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apitests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apitests" />
-      <option name="MAIN_CLASS_NAME" value="apitests.WebTestSuite" />
-      <option name="METHOD_NAME" value="ErrorMessageTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTestSuite.FormsInsertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codecamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apitests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apitests" />
-      <option name="MAIN_CLASS_NAME" value="apitests.WebTestSuite" />
-      <option name="METHOD_NAME" value="FormsInsertTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTestSuite.LargestPlanetDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codecamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apitests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apitests" />
-      <option name="MAIN_CLASS_NAME" value="apitests.WebTestSuite" />
-      <option name="METHOD_NAME" value="LargestPlanetDistance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebTestSuite.DistanceToJupiterTest" />
-        <item itemvalue="JUnit.WebTestSuite.FormsInsertTest" />
+        <item itemvalue="JUnit.PizzaTestSuite.SignupTest" />
+        <item itemvalue="JUnit.PizzaTestSuite.VeganPizza" />
+        <item itemvalue="JUnit.PizzaTestSuite.FormsInsertTest" />
         <item itemvalue="JUnit.WebTestSuite" />
-        <item itemvalue="JUnit.WebTestSuite.LargestPlanetDistance" />
-        <item itemvalue="JUnit.WebTestSuite.ErrorMessageTest" />
+        <item itemvalue="JUnit.WebTestSuite.DistanceToJupiterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654145256838</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Web test to click on form and planets in sequence.&#10;Submit form test which inputs information into form, submits and then asserts that message is received.">
+      <created>1654145795867</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654145795867</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

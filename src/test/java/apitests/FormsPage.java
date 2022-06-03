@@ -37,7 +37,8 @@ public class FormsPage
 
         }
 
-        public void pressAgree(){
+        public void pressAgree()
+        {
 
             var agreeButton = driver.findElement(By.cssSelector("[for=agree]"));
             agreeButton.click();
